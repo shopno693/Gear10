@@ -78,12 +78,12 @@
 @media screen and (max-width:667px){
   .nav {
     flex-direction: column;
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
   .banner-container {
     flex-direction: column;
     margin-top: 90px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .company-logo {
     flex-direction: row;
@@ -106,6 +106,7 @@
   #Main-cam{ 
     height: 200px;
     width: 200px;
+    margin-top: 25px;
   }
 }
 /* This is Main section */
@@ -175,6 +176,9 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     padding: 0px 80px;
+  }
+  .buton {
+    display: none;
   }
 }
 
